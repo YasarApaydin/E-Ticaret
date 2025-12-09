@@ -5,7 +5,7 @@ namespace E_Ticaret.Infrastructure.Abstractions
     public interface IJwtProvider
     {
 
-        Task<string> CreateTokenAsync(AppUser appUser,CancellationToken cancellationToken = default);
+        Task<string> CreateTokenAsync(AppUser appUser,string PaswordHash,CancellationToken cancellationToken = default);
     }
 }
     

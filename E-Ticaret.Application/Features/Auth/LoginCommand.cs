@@ -49,7 +49,7 @@ internal sealed class LoginCommandHandler(UserManager<AppUser> userManager, Sign
         await userManager.ResetAccessFailedCountAsync(user);
 
      
-        string token = await jwtProvider.CreateTokenAsync(user,cancellationToken);
+        string token = await jwtProvider.CreateTokenAsync(user,user.PasswordHash!,cancellationToken);
 
         return Result<LoginCommandResponse>.Succeed(new LoginCommandResponse(AccesToken: token, UserId: user.Id));
 

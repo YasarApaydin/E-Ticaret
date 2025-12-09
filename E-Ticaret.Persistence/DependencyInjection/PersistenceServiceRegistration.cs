@@ -58,6 +58,14 @@ namespace E_Ticaret.Persistence.DependencyInjection
                 options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
             })
    .AddJwtBearer();
+            services.Configure<KeycloakConfiguration>(configuration.GetSection("KeycloakConfiguration"));
+
+
+            
+
+            services.AddScoped<KeycloakService>();
+
+            services.Configure<EmailSettings>(configuration.GetSection("EmailSettings"));
 
 
             services.AddScoped<IUnitOfWork>(x => x.GetRequiredService<AppDbContext>());

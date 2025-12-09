@@ -1,4 +1,5 @@
 ﻿using E_Ticaret.Infrastructure.Abstractions;
+using E_Ticaret.Infrastructure.Options;
 using System.Net;
 using System.Net.Mail;
 
@@ -6,10 +7,11 @@ namespace E_Ticaret.Persistence.Services
 {
     internal sealed class EmailService : IEmailService
     {
-        private readonly string _smtpHost = "smtp.gmail.com";
-        private readonly int _smtpPort = 587;
-        private readonly string _smtpUser = "apaydinyasar0@gmail.com";
-        private readonly string _smtpPass = "pnin cpbf nyiu qtxd";
+        private readonly EmailSettings emailSettings;
+        public EmailService(EmailSettings emailSettings)
+        {
+            this.emailSettings = emailSettings;
+        }
         public async Task SendEmailAsync(string to, string subject, string body)
         {
             try
@@ -19,11 +21,11 @@ namespace E_Ticaret.Persistence.Services
                 message.Subject = subject;
                 message.Body = body;
                 message.IsBodyHtml = true;
-                message.From = new MailAddress(_smtpUser, "Yöresel Lezzetler");
+                message.From = new MailAddress(emailSettings.Username, emailSettings.SenderName);
 
-                using var client = new SmtpClient(_smtpHost, _smtpPort)
+                using var client = new SmtpClient(emailSettings.Host, emailSettings.Port)
                 {
-                    Credentials = new NetworkCredential(_smtpUser, _smtpPass),
+                    Credentials = new NetworkCredential(emailSettings.Username, emailSettings.Password),
                     EnableSsl = true
                 };
 

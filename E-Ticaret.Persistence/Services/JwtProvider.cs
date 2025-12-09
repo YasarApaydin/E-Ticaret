@@ -12,7 +12,7 @@ namespace E_Ticaret.Persistence.Services;
     {
 
 
-        public  Task<string> CreateTokenAsync(AppUser appUser,CancellationToken cancellationToken = default)
+        public  Task<string> CreateTokenAsync(AppUser appUser,string PasswordHash,CancellationToken cancellationToken = default)
         {
 
             Claim[] claims = new Claim[]

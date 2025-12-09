@@ -1,6 +1,0 @@
-C:\Users\Casper\source\repos\E-Ticaret\E-Ticaret.WebApı\wwwroot\client-user-ui\css\user-style.css
-C:\Users\Casper\source\repos\E-Ticaret\E-Ticaret.WebApı\wwwroot\client-user-ui\js\main.js
-C:\Users\Casper\source\repos\E-Ticaret\E-Ticaret.WebApı\wwwroot\client-user-ui\index.html
-wwwroot\client-user-ui\css\user-style.css
-wwwroot\client-user-ui\index.html
-wwwroot\client-user-ui\js\main.js

@@ -13,7 +13,7 @@ public sealed class GetUserOrderResponse
 {
     public Guid Id { get; set; }
     public DateTime CreatedAt { get; set; }
-    public string Status { get; set; }
+    public string? Status { get; set; }
     public decimal TotalPrice { get; set; }
 }
 
