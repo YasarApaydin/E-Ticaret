@@ -1,0 +1,17 @@
+C:\Users\Casper\source\repos\E-Ticaret\E-Ticaret.Application\bin\Debug\net9.0\E-Ticaret.Application.deps.json
+C:\Users\Casper\source\repos\E-Ticaret\E-Ticaret.Application\bin\Debug\net9.0\E-Ticaret.Application.dll
+C:\Users\Casper\source\repos\E-Ticaret\E-Ticaret.Application\bin\Debug\net9.0\E-Ticaret.Application.pdb
+C:\Users\Casper\source\repos\E-Ticaret\E-Ticaret.Application\bin\Debug\net9.0\E-Ticaret.Domain.dll
+C:\Users\Casper\source\repos\E-Ticaret\E-Ticaret.Application\bin\Debug\net9.0\E-Ticaret.Infrastructure.dll
+C:\Users\Casper\source\repos\E-Ticaret\E-Ticaret.Application\bin\Debug\net9.0\E-Ticaret.Domain.pdb
+C:\Users\Casper\source\repos\E-Ticaret\E-Ticaret.Application\bin\Debug\net9.0\E-Ticaret.Infrastructure.pdb
+C:\Users\Casper\source\repos\E-Ticaret\E-Ticaret.Application\obj\Debug\net9.0\E-Ticaret.Application.csproj.AssemblyReference.cache
+C:\Users\Casper\source\repos\E-Ticaret\E-Ticaret.Application\obj\Debug\net9.0\E-Ticaret.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Casper\source\repos\E-Ticaret\E-Ticaret.Application\obj\Debug\net9.0\E-Ticaret.Application.AssemblyInfoInputs.cache
+C:\Users\Casper\source\repos\E-Ticaret\E-Ticaret.Application\obj\Debug\net9.0\E-Ticaret.Application.AssemblyInfo.cs
+C:\Users\Casper\source\repos\E-Ticaret\E-Ticaret.Application\obj\Debug\net9.0\E-Ticaret.Application.csproj.CoreCompileInputs.cache
+C:\Users\Casper\source\repos\E-Ticaret\E-Ticaret.Application\obj\Debug\net9.0\E-Ticare.704C50BB.Up2Date
+C:\Users\Casper\source\repos\E-Ticaret\E-Ticaret.Application\obj\Debug\net9.0\E-Ticaret.Application.dll
+C:\Users\Casper\source\repos\E-Ticaret\E-Ticaret.Application\obj\Debug\net9.0\refint\E-Ticaret.Application.dll
+C:\Users\Casper\source\repos\E-Ticaret\E-Ticaret.Application\obj\Debug\net9.0\E-Ticaret.Application.pdb
+C:\Users\Casper\source\repos\E-Ticaret\E-Ticaret.Application\obj\Debug\net9.0\ref\E-Ticaret.Application.dll
