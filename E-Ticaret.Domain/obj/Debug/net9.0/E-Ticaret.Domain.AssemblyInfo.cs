@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("E-Ticaret.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e98b79907ab555faf91dd8888ba6a8bdccf26809")]
 [assembly: System.Reflection.AssemblyProductAttribute("E-Ticaret.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("E-Ticaret.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
