@@ -1,20 +1,19 @@
-# Build folders
+
 bin/
 obj/
 .vs/
 
-# User-specific files
+
 *.suo
 *.user
 *.userosscache
 *.sln.docstates
 
-# Log files
+
 *.log
 
-# Configuration files
+
 appsettings.json
 appsettings.*.json
 
-# Publish outputs
-wwwroot/
+
